@@ -1,0 +1,47 @@
+@import "../../../styles/_media.scss";
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  padding: 10% 0;
+
+  .about {
+    width: 70%;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    @include x {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    &__image {
+      display: flex;
+      justify-content: center;
+
+      @include m {
+        margin-bottom: 20px;
+      }
+
+      img {
+        border-radius: 50px;
+
+        @include m {
+          width: 70%;
+        }
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      @include m {
+        width: 50%;
+      }
+    }
+  }
+}

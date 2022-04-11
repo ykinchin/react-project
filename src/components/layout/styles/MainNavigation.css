@@ -1,0 +1,32 @@
+.header {
+  padding: 1rem 0; }
+  .header .navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media (max-width: 475px) {
+      .header .navigation {
+        display: none; } }
+    .header .navigation__bar {
+      width: max-content;
+      height: 100%;
+      display: flex;
+      align-self: center; }
+      .header .navigation__bar__logo {
+        display: flex; }
+        .header .navigation__bar__logo img {
+          width: 44px;
+          height: 43px; }
+      .header .navigation__bar__items {
+        padding-left: 3rem;
+        align-items: center;
+        gap: 2rem;
+        font-size: 20px;
+        display: flex; }
+        .header .navigation__bar__items .bar__item {
+          color: #150c01;
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+/*# sourceMappingURL=MainNavigation.css.map */

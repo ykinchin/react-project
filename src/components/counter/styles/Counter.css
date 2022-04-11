@@ -1,0 +1,16 @@
+.counter {
+  border-bottom: 2px solid #dc780b;
+  width: 100%; }
+  .counter__buttons {
+    color: #dc780b;
+    font-size: 2rem; }
+    .counter__buttons__plus {
+      color: inherit; }
+    .counter__buttons__minus {
+      color: inherit; }
+  .counter__text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem; }
+
+/*# sourceMappingURL=Counter.css.map */

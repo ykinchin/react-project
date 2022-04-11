@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Delmonico Steak dish",
+    "price": "14$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "image": "./images/cardImg2.png",
+    "name": "Burger",
+    "price": "10$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 2
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Salads",
+    "price": "5$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 4
+  },
+  {
+    "id": 4,
+    "image": "./images/cardImg4.png",
+    "name": "Peach Melba Dishs",
+    "price": "15$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 4
+  },
+  {
+    "id": 5,
+    "image": "./images/cardImg5.png",
+    "name": "Egg Masala",
+    "price": "8$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 2
+  },
+  {
+    "id": 6,
+    "image": "./images/cardImg3.jpg",
+    "name": "Borsch",
+    "price": "9$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "image": "./images/cardImg7.png",
+    "name": "Vegie Muffens",
+    "price": "11$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 3
+  },
+  {
+    "id": 8,
+    "image": "./images/cardImg8.jpg",
+    "name": "Potatos",
+    "price": "4$",
+    "description": "There are many things are needed to start the Fast Food Business.",
+    "rating": 5
+  }
+]

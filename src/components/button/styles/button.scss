@@ -1,0 +1,19 @@
+.button {
+  align-self: center;
+  background-color: #dc780b;
+  min-width: 170px;
+  height: max-content;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin:0 10px;
+
+  .btn {
+    a {
+      color: white;
+    }
+  }
+}

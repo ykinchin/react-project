@@ -1,0 +1,53 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .loading div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .loading div p {
+      font-size: 3rem; }
+
+.menu-section {
+  padding-top: 5rem;
+  width: 100%;
+  position: relative; }
+  .menu-section .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; }
+    .menu-section .menu .img {
+      position: fixed;
+      width: 280px;
+      user-select: none;
+      z-index: 2; }
+      @media (max-width: 1024px) {
+        .menu-section .menu .img {
+          display: none; } }
+    .menu-section .menu__img-left {
+      height: 300px;
+      left: 0; }
+    .menu-section .menu__img-right {
+      height: 400px;
+      right: 0; }
+    .menu-section .menu__title {
+      font-size: 4rem;
+      padding-bottom: 3rem;
+      display: flex;
+      width: 560px; }
+      @media (max-width: 475px) {
+        .menu-section .menu__title {
+          width: 70%; } }
+      .menu-section .menu__title p {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+        padding-bottom: 1rem; }
+    .menu-section .menu .card__wrapper {
+      display: grid;
+      width: 90vw;
+      justify-content: center;
+      gap: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(390px, 400px)); }
+
+/*# sourceMappingURL=MenuPage.css.map */

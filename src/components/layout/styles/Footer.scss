@@ -1,0 +1,67 @@
+@import "../../../styles/_media.scss";
+
+.footer-wrapper {
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #252525;
+
+  .footer {
+    width: 100%;
+    padding: 2vh 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,251px));
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+
+    .footer__list {
+      padding: 1rem;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      @include s {
+        align-items: center;
+      }
+
+      li {
+        a {
+          color: white;
+        }
+      }
+
+      &:last-child {
+        display: grid;
+        grid-template-areas:
+          "a a a"
+          "b c d";
+          
+          
+
+
+        li:not(:first-child) {
+          font-size: 1.5rem;
+        }
+
+        li:first-child {
+          grid-area: a;
+        }
+        li:nth-child(2) {
+          grid-area: c;
+        }
+        li:nth-child(3) {
+          grid-area: d;
+        }
+
+        li:last-child {
+          grid-area: b;
+        }
+      }
+    }
+  }
+}

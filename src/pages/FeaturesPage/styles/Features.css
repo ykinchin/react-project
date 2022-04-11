@@ -1,0 +1,12 @@
+.features-section {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0; }
+  .features-section .features {
+    display: flex;
+    flex-direction: column; }
+    .features-section .features__items {
+      display: flex;
+      gap: 3rem; }
+
+/*# sourceMappingURL=Features.css.map */

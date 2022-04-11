@@ -1,0 +1,49 @@
+@import "../../../styles/_media.scss";
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+.header {
+  padding: 1rem 0;
+
+  .navigation {
+    @include sizes(100%, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include m {
+        display: none
+    }
+
+    &__bar {
+      @include sizes(max-content, 100%);
+      display: flex;
+      align-self: center;
+
+      &__logo {
+        display: flex;
+        
+        img {
+          @include sizes(44px, 43px);
+        }
+      }
+
+      &__items {
+        padding-left: 3rem;
+        align-items: center;
+        gap: 2rem;
+        font-size: 20px;
+        display: flex;
+
+        .bar__item {
+          color: #150c01;
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+      }
+    }
+  }
+}

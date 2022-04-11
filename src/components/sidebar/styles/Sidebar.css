@@ -1,0 +1,49 @@
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 50px;
+  left: 0;
+  transform: translate(-130%);
+  transition: 0.5s; }
+
+.menu.active {
+  transform: translate(0); }
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  left: 30%; }
+
+.menu__content {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.menu__header {
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  width: 100%;
+  text-align: center; }
+
+ul li a {
+  color: white;
+  text-decoration: none; }
+
+ul li {
+  display: flex;
+  align-items: center; }
+
+ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+/*# sourceMappingURL=Sidebar.css.map */

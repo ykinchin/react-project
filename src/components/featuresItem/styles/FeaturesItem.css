@@ -1,0 +1,57 @@
+.features-slider__wrapper .features-slider {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+.features-slider__wrapper .slide .features__item {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+  gap: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+  .features-slider__wrapper .slide .features__item__img {
+    background-color: #fcf2e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 1rem; }
+    .features-slider__wrapper .slide .features__item__img img {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px; }
+
+.features-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; }
+  .features-wrapper .features__item {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+    gap: 0.5rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; }
+    .features-wrapper .features__item__img {
+      background-color: #fcf2e7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      padding: 1rem; }
+      .features-wrapper .features__item__img img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px; }
+    .features-wrapper .features__item__title {
+      font-size: 1.5rem;
+      font-weight: bold; }
+
+/*# sourceMappingURL=FeaturesItem.css.map */

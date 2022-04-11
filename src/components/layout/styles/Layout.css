@@ -1,0 +1,25 @@
+.layout-wrapper {
+  position: relative;
+  height: 100;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex; }
+  @media (max-width: 1024px) {
+    .layout-wrapper {
+      align-items: center; } }
+  .layout-wrapper .layout__nav {
+    align-self: center;
+    display: flex;
+    width: 70%;
+    justify-content: space-between; }
+    .layout-wrapper .layout__nav .layout__cart {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: 10%;
+      font-size: 2rem;
+      z-index: 2; }
+    .layout-wrapper .layout__nav .layout__cart-opened {
+      color: white; }
+
+/*# sourceMappingURL=Layout.css.map */

@@ -1,0 +1,34 @@
+@import "../../../styles/_media.scss";
+
+.layout-wrapper {
+  position: relative;
+  height: 100;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+
+  @include x {
+      align-items: center;
+  }
+  
+
+  .layout__nav {
+    align-self: center;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+
+    .layout__cart {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: 10%;
+      font-size: 2rem;
+      z-index: 2;
+    }
+
+    .layout__cart-opened {
+        color: white;
+    }
+  }
+}
